@@ -96,10 +96,10 @@ st.markdown("""
     </div>
     <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;
                 letter-spacing:-0.02em;">
-        CODENO2
+        Smart Hospital Patient Navigator
     </div>
     <div style="font-size:18px;color:rgba(255,255,255,0.85);font-weight:400;">
-        CODENO3
+        Find The Right Department For Your Symptoms
     </div>
 </div>
 """, unsafe_allow_html=True)
