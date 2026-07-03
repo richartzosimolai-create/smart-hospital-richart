@@ -147,7 +147,7 @@ with st.form("triage_form"):
     <div style="background:#6769a4 0%;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#25f20a;color:white;border-radius:8px;
+            <span style="background:#c7f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">2</span>
             <span style="font-size:16px;font-weight:600;color:#105efa;">How long have you had these symtomps?</span>
         </div>
