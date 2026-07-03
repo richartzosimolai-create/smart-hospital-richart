@@ -60,12 +60,12 @@ DEPT_INFO = {
     },
     'Cardiology': {
         'icon':'❤️','color':'#dc2626','bg':'#fee2e2','border':'#fca5a5',
-        'desc':'CODENO34',
+        'desc':'Specialises in heart and cardiovascular conditions.',
         'next':['Visit Level 3, Wing A','Estimated wait: 20–30 min','Bring any previous ECG reports']
     },
     'Gastroenterology': {
         'icon':'🫃','color':'#d97706','bg':'#fef3c7','border':'#fcd34d',
-        'desc':'CODENO35',
+        'desc':'Specialises',
         'next':['Visit Level 1, Wing C','Estimated wait: 10–20 min','Avoid eating before consultation']
     },
     'Neurology': {
