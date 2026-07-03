@@ -55,7 +55,7 @@ cc_map        = bundle['cc_map']
 DEPT_INFO = {
     'Respiratory Medicine': {
         'icon':'🫁','color':'#0284c7','bg':'#e0f2fe','border':'#7dd3fc',
-        'desc':'CODENO33',
+        'desc':'Specialises in condition affecting the lungs and airways.',
         'next':['Visit Level 2, Wing B','Estimated wait: 15–25 min','Please wear a mask']
     },
     'Cardiology': {
@@ -296,7 +296,7 @@ if submitted:
         st.markdown(f"""
         <div style="background:white;border:1px solid #e5e7eb;border-radius:16px;padding:24px;">
             <div style="font-size:14px;font-weight:600;color:#111827;margin-bottom:16px;">
-                CODENO31
+                Confidence by department
             </div>
         """, unsafe_allow_html=True)
 
@@ -329,7 +329,7 @@ if submitted:
             <!-- COLOR7 -->
             <div style="margin-top:20px;background:#e90ee9;border:1px solid #ff0505;
                         border-radius:10px;padding:12px 14px;font-size:12px;color:#1af250;">
-                <strong>Model:</strong>CODENO32<br>
+                <strong>Model:</strong>KNN (k=7) - 102.000 patient - 99.5% accuracy<br>
                 <strong>Powered by:</strong> Future Classroom ML
             </div>
         </div>
