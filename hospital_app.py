@@ -197,21 +197,21 @@ with st.form("triage_form"):
     """, unsafe_allow_html=True)
 
     ch1, ch2, ch3, _ = st.columns(4)
-    with ch1: hypertension  = st.checkbox("🩺 CODENO21")
-    with ch2: heart_disease = st.checkbox("❤️ CODENO22")
-    with ch3: asthma        = st.checkbox("💨 CODENO23")
+    with ch1: hypertension  = st.checkbox("🩺 High Blood Pressure")
+    with ch2: heart_disease = st.checkbox("❤️ Heart Disease")
+    with ch3: asthma        = st.checkbox("💨 Asthma")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
     # Section 5 — Patient Info
     st.markdown("""
     <!-- COLOR6 -->
-    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
+    <div style="background:#6769a4;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#25f20a;color:white;border-radius:8px;
+            <span style="background:#c7f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">5</span>
-            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO24</span>
+            <span style="font-size:16px;font-weight:600;color:#f2f2f3;">CODENO24</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
