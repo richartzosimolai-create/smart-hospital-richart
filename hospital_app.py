@@ -75,7 +75,7 @@ DEPT_INFO = {
     },
     'General Medicine': {
         'icon':'🩺','color':'#059669','bg':'#d1fae5','border':'#6ee7b7',
-        'desc':'Specialises',
+        'desc':'Handles general health concerns and non-specialist conditions.',
         'next':['Visit Level 1, Wing A','Estimated wait: 10–15 min','Registration desk is open 24/7']
     },
     'Dermatology': {
