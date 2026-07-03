@@ -218,11 +218,11 @@ with st.form("triage_form"):
 
     col_age, col_gen = st.columns(2)
     with col_age:
-        age    = st.number_input("CODENO25", min_value=1, max_value=120, value=35)
+        age    = st.number_input("Age", min_value=1, max_value=120, value=35)
     with col_gen:
-        gender = st.selectbox("CODENO26", options=['Female', 'Male'])
+        gender = st.selectbox("Gender", options=['Female', 'Male'])
 
-    submitted = st.form_submit_button("CODENO27 →")
+    submitted = st.form_submit_button("Get AI Information →")
 
 # ── Result ────────────────────────────────────────────────────────────────────
 if submitted:
