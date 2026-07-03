@@ -80,7 +80,7 @@ DEPT_INFO = {
     },
     'Dermatology': {
         'icon':'🔬','color':'#b45309','bg':'#fef9c3','border':'#fde68a',
-        'desc':'Specialises',
+        'desc':'Specialises in skin, hair, and nail conditions.',
         'next':['Visit Level 2, Wing D','Estimated wait: 15–20 min','Bring photos of affected area if possible']
     },
 }
