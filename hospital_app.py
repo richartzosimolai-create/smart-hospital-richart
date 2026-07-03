@@ -115,7 +115,7 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#c7f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">1</span>
-            <span style="font-size:16px;font-weight:600;color:#105efa;">What are your main symptoms?</span>
+            <span style="font-size:16px;font-weight:600;color:#eef1f5;">What are your main symptoms?</span>
             <span style="font-size:13px;color:#6b7280;font-style:italic;">select all that apply</span>
         </div>
     </div>
@@ -149,7 +149,7 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#c7f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">2</span>
-            <span style="font-size:16px;font-weight:600;color:#105efa;">How long have you had these symtomps?</span>
+            <span style="font-size:16px;font-weight:600;color:#f7f7f7;">How long have you had these symtomps?</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
